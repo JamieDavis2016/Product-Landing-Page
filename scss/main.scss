@@ -1,0 +1,20 @@
+@import "_mixins";
+@import "_layout";
+@import "_navbar";
+
+.intro {
+    background: #333 url(/dist/images/watchbackground.jpg) no-repeat center ;
+    background-size: cover;
+    position: relative;
+    height: auto;
+    padding: 130px 0 80px;
+
+    & .overlay {
+        height: 100%;
+        width: 100%;
+        top: 0px;
+        position: absolute;
+        background: #111;
+        opacity: 0.50;
+    }
+}
